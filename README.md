@@ -16,6 +16,18 @@ TECNOLOGIAS UTILIZADAS
 
 --------------------------------------------------
 
+PRÉ-REQUISITOS
+
+Antes de executar o projeto, é necessário ter instalado:
+
+- Java JDK 17 ou superior
+- Maven
+- MongoDB Atlas (ou instância MongoDB configurada)
+- Git
+- IntelliJ IDEA (ou outra IDE Java)
+
+--------------------------------------------------
+
 ARQUITETURA
 
 O projeto foi organizado em camadas:
@@ -115,7 +127,6 @@ COMO RODAR O PROJETO
 
 git clone https://github.com/oliveiradaniele528-collab/task-manager-api.git
 
-
 2. Configurar MongoDB
 
 Criar o arquivo:
@@ -126,7 +137,6 @@ Adicionar:
 
 spring.data.mongodb.uri=<sua_connection_string>
 server.port=8080
-
 
 3. Rodar a aplicação
 
